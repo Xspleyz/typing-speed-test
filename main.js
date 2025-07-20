@@ -1,7 +1,7 @@
 const quotes = [
     "Hari ini adalah hari yang indah untuk belajar.",
     "Latihan mengetik bisa meningkatkan kecepatanmu.",
-    "Jangan menyerah, teruslah berlatih!",
+    "Jangan menyerah, teruslah berlatih",
     "Setiap usaha kecil akan menghasilkan sesuatu.",
     "Konsistensi adalah kunci kesuksesan."
 ];
@@ -69,7 +69,7 @@ $("#next-btn").click(function() {
     } else {
         const avgAccuracy = Math.round(((totalChars - totalMistakes) / totalChars) * 100);
         $("#stats").html(`
-            <h3>📝 Catatan Akhir 📝</h3>
+            <h3>Catatan Akhir</h3>
             <p>Total Waktu: ${totalTime.toFixed(2)} detik</p>
             <p>Jumlah Salah Ketik: ${totalMistakes}</p>
             <p>Rata-rata Akurasi: ${avgAccuracy}%</p>
